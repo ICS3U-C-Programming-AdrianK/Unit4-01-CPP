@@ -2,7 +2,7 @@
 // Created by : Adrian student
 // Created on : 4th NOV 2026
 // This program asks the user to enter a positive number, then it
-// Sums all the numbers between from 0 to that chosen number.
+// Sums all the numbers from 0 to that chosen number.
 #include <iostream>
 #include <string>
 
