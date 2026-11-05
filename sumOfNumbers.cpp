@@ -38,7 +38,7 @@ int main() {
                 std::cout << "\n";
             }
         } else {
-            std::cout << "Please enter a whole number" << std::endl;
+            std::cout << userNumberFloat <<" is not an integer" << std::endl;
         }
     } catch(std::invalid_argument) {
         std::cout << userNumberStr << " is not an integer";
