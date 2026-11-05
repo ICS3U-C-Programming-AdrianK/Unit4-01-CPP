@@ -25,10 +25,10 @@ int main() {
         if (userNumberFloat == static_cast<int>(userNumberFloat)) {
             if (userNumberFloat >= 0) {
                 while (count <= userNumberFloat) {
+                    std::cout << "Tracking " << count 
+<< " times through the loop" << std::endl;
                     total = count + total;
                     count = count + 1;
-                    std::cout << "Tracking " << count
-<< " times through the loop" << std::endl;
                     }
                 std::cout << "The sum of all numbers from 0 to "
 << userNumberFloat << " = " << total << std::endl;
